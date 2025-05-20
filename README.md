@@ -51,7 +51,9 @@ Follow these steps to get started with ObservabilityLabs:
 
 
 Clone the repository:
+
 git clone https://github.com/markand4/ObservabilityLabs.git
+
 cd ObservabilityLabs
 
 Pick a lab:

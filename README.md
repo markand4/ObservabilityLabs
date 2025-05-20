@@ -24,7 +24,9 @@ ObservabilityLabs is a collection of interactive, step-by-step labs that complem
 
 
 Help you gain practical experience with observability tools and technologies.
+
 Walk you through setting up custom observability solutions for various use cases.
+
 Provide reusable examples and templates for your projects.
 
 
@@ -33,8 +35,11 @@ Provide reusable examples and templates for your projects.
 This repository is ideal for:
 
 Customers using AppDynamics including: 
+
 Developers exploring observability tools.
+
 IT Professionals implementing monitoring systems.
+
 Anyone passionate about understanding system behavior in depth.
 
 
@@ -59,9 +64,11 @@ cd ObservabilityLabs
 Pick a lab:
 
 Navigate to the lab directory you're interested in (e.g., Lab1-FirstBrowserSyntheticMonitoringScript).
+
 Open the README.md to learn how to get started and the link to the corresponding YouTube video:
 
 Find the link to the video tutorial in the lab's README file.
+
 Follow along:
 
 Execute the steps, run the scripts, and explore the provided code samples.
@@ -79,7 +86,9 @@ We believe that learning is better together! Here’s how you can connect with u
 
 
 Subscribe to our YouTube Channel: [Cisco Observability](https://www.youtube.com/@CiscoObservability)
+
 Share your feedback: Open an issue or discussion in this repository.
+
 Contribute: See our [CONTRIBUTING.md](CONTRIBUTING.md) to get involved.
 
 

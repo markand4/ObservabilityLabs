@@ -9,7 +9,7 @@ This repository is a companion to our [Cisco Observability YouTube Channel](http
 
 🎥 About Our YouTube Channel
 
-Our YouTube channel, [Cisco Observability](https://www.youtube.com/@CiscoObservability\), is dedicated to helping developers, engineers, and IT professionals master the art of observability.
+Our YouTube channel, [Cisco Observability](https://www.youtube.com/@CiscoObservability\)), is dedicated to helping developers, engineers, and IT professionals master the art of observability.
 
 
 📊 Learn about observability tools and concepts.

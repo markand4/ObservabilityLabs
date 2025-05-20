@@ -31,8 +31,10 @@ Install Selenium using pip:
 pip install selenium
 ```
 [Download ChromeDriver Package](https://pypi.org/project/chromedriver-py/)
-Download the WebDriver for your browser (e.g., ChromeDriver for Google Chrome).
-Ensure the WebDriver is compatible with your browser version.
+```bash
+pip install chromedriver-py
+```
+
 [IDE or Code Editor](https://code.visualstudio.com/)
 
 Use an Integrated Development Environment (IDE) like Visual Studio Code or PyCharm for coding and debugging.

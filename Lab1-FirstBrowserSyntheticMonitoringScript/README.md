@@ -7,9 +7,9 @@ Welcome to Lab 1 of ObservabilityLabs! In this lab, you'll learn how to create a
 
 🎥 Video Tutorial
 
-Follow along with our detailed video tutorial on our [Cisco Observability YouTube Channel](https://www.youtube.com/@CiscoObservability):
+Follow along with our detailed video tutorial on our [Cisco Observability YouTube Channel](https://youtu.be/XzE4_croAcU):
 
-▶️ [Watch the Lab 1 Video Here](https://www.youtube.com/@CiscoObservability)
+▶️ [Watch the Lab 1 Video Here](https://youtu.be/XzE4_croAcU)
 
 
 
@@ -124,7 +124,7 @@ Debug and optimize the script as needed.
 If you encounter issues or have questions, feel free to:
 
 
-Watch the video tutorial: [Cisco Observability YouTube Channel](https://www.youtube.com/@CiscoObservability)
+Watch the video tutorial: [Cisco Observability YouTube Channel](https://youtu.be/XzE4_croAcU)
 Open an issue: [GitHub Issues](../../issues)
 Join the discussion: [GitHub Discussions](../../discussions)
 

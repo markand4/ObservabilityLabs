@@ -29,9 +29,8 @@ Python's package manager for installing dependencies.
 Install Selenium using pip:
 ```bash
 pip install selenium
-[WebDriver (e.g., ChromeDriver)](https://sites.google.com/a/chromium.org/chromedriver/downloads)
 ```
-
+[Download ChromeDriver Package](https://pypi.org/project/chromedriver-py/)
 Download the WebDriver for your browser (e.g., ChromeDriver for Google Chrome).
 Ensure the WebDriver is compatible with your browser version.
 [IDE or Code Editor](https://code.visualstudio.com/)

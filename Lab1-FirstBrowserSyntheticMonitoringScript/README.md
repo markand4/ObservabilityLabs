@@ -85,9 +85,10 @@ pip install selenium
 
 Download and configure the WebDriver:
 
-[Download ChromeDriver Package](https://pypi.org/project/chromedriver-py/) or the appropriate driver for your browser.
-Place the WebDriver executable in a directory accessible from your PATH.
-
+[Download ChromeDriver Package](https://pypi.org/project/chromedriver-py/) 
+```bash
+pip install chromedriver-py
+```
 
 3. Copy the script and make your own, delete all the steps and add them manually in to test yourself
 

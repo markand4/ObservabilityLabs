@@ -1,0 +1,936 @@
+{
+ "dashboardContent": {
+  "definition": {
+   "aspectRatio": 1.7777777777777777,
+   "fixedAspectRatio": false,
+   "persistTimeRange": false,
+   "refreshIntervalConfig": {
+    "refreshInterval": 120000,
+    "selectedInterval": "TWO_MINUTES",
+    "intervalUnit": "MINUTES",
+    "type": "time-interval",
+    "version": 1
+   },
+   "children": [
+    {
+     "columns": [
+      {
+       "fixed": false,
+       "value": 0.0011569840371678996,
+       "sectionGuid": "3354651c-923d-457f-b816-aa873efd6738",
+       "order": 1,
+       "type": "grid-section-model",
+       "version": 1
+      },
+      {
+       "fixed": false,
+       "value": 0.49369954005595607,
+       "sectionGuid": "5be96317-60bf-488a-885b-da04d8d93cdf",
+       "order": 2,
+       "type": "grid-section-model",
+       "version": 1
+      },
+      {
+       "fixed": false,
+       "value": 0.0011569840371678996,
+       "sectionGuid": "27b7aa96-b6a7-4f39-ab35-9b793edda555",
+       "order": 3,
+       "type": "grid-section-model",
+       "version": 1
+      },
+      {
+       "fixed": false,
+       "value": 0.494856524093124,
+       "sectionGuid": "19bb790e-d4dc-43c5-9db8-73307c75ab3d",
+       "order": 4,
+       "type": "grid-section-model",
+       "version": 1
+      },
+      {
+       "fixed": false,
+       "value": 0.009129967776584194,
+       "sectionGuid": "ac351a9a-f2b7-42f0-ac8a-e88714a11d95",
+       "order": 5,
+       "type": "grid-section-model",
+       "version": 1
+      },
+      {
+       "fixed": false,
+       "value": 0,
+       "sectionGuid": "2ed70b4c-78fe-4e21-9c2a-5262ce84acd1",
+       "order": 6,
+       "type": "grid-section-model",
+       "version": 1
+      }
+     ],
+     "rows": [
+      {
+       "fixed": true,
+       "value": 101,
+       "sectionGuid": "599450b3-0ea7-4014-9400-c9060fb13d04",
+       "order": 1,
+       "type": "grid-section-model",
+       "version": 1
+      },
+      {
+       "fixed": true,
+       "value": 500,
+       "sectionGuid": "014b1e29-25db-4abc-8117-c34161c2b058",
+       "order": 2,
+       "type": "grid-section-model",
+       "version": 1
+      },
+      {
+       "fixed": true,
+       "value": 500,
+       "sectionGuid": "e940bed5-406e-4aca-9a7b-00aed6353a1d",
+       "order": 3,
+       "type": "grid-section-model",
+       "version": 1
+      },
+      {
+       "fixed": false,
+       "value": 0.05574614065180103,
+       "sectionGuid": "4fa4847e-3a9a-4942-a01a-1d2b62d79aa2",
+       "order": 4,
+       "type": "grid-section-model",
+       "version": 1
+      },
+      {
+       "fixed": false,
+       "value": 0,
+       "sectionGuid": "3af1649b-9b8e-402a-89e9-45e672065b07",
+       "order": 5,
+       "type": "grid-section-model",
+       "version": 1
+      }
+     ],
+     "cardMode": false,
+     "title": "Enter Widget Title",
+     "subTitle": "Enter Widget Subtitle",
+     "showTitle": true,
+     "showSubtitle": false,
+     "children": [
+      {
+       "text": "Browser Synthetic Monitoring Dashboard ",
+       "textColor": "#ff0f7b",
+       "textSize": "43",
+       "verticalAlignment": "center",
+       "horizontalAlignment": "center",
+       "title": "Enter Widget Title",
+       "subTitle": "Enter Widget Subtitle",
+       "showTitle": true,
+       "showSubtitle": false,
+       "eventBusChannels": [],
+       "navigationProperties": {
+        "navigationType": "URL",
+        "navigationTarget": "NEW_WINDOW",
+        "url": "https://appd-cs-global.saas.appdynamics.com/controller/#/location=EUM_SYNTHETIC_SCHEDULE_LIST&timeRange=last_1_hour.BEFORE_NOW.-1.-1.60&application=8682?timeRange=last_1_hour.BEFORE_NOW.-1.-1.60&edit=true",
+        "dashboardId": -1,
+        "passedVariables": [],
+        "type": "navigation-properties",
+        "version": 1
+       },
+       "eventListeners": [],
+       "guid": "0ffd3aa6-7611-473c-9cdf-d906d9873961",
+       "style": {
+        "background-color": "rgba(75,77,82,1)",
+        "padding": "10px"
+       },
+       "layoutStyle": {
+        "grid-row": "1 / 2",
+        "grid-column": "1 / 5",
+        "-ms-grid-row-span": "1",
+        "-ms-grid-column-span": "4",
+        "-ms-grid-row": "1",
+        "-ms-grid-column": "1",
+        "width": "100%",
+        "height": "100%",
+        "display": "inline-block",
+        "position": "absolute",
+        "topRowGuid": "599450b3-0ea7-4014-9400-c9060fb13d04",
+        "bottomRowGuid": "014b1e29-25db-4abc-8117-c34161c2b058",
+        "leftColumnGuid": "3354651c-923d-457f-b816-aa873efd6738",
+        "rightColumnGuid": "ac351a9a-f2b7-42f0-ac8a-e88714a11d95"
+       },
+       "type": "label-widget2",
+       "version": 2
+      },
+      {
+       "series": [
+        {
+         "properties": {
+          "visualizationType": "spline",
+          "name": "Availability (ppm)",
+          "color": "blue",
+          "yAxisIndex": 0,
+          "visible": true,
+          "showMetricFunctionTypeOptions": false,
+          "showChartTypeOptions": true,
+          "showLimitToOptions": false,
+          "useRelativeMetricPath": false,
+          "type": "cartesian-series-properties2",
+          "version": 1
+         },
+         "query": {
+          "baselineId": 33666,
+          "entityFilter": {
+           "databaseType": null,
+           "filterType": "ALL",
+           "applicationDiagnosticDataType": "SYNTH_JOB_REF",
+           "nameMatchFilter": null,
+           "nodeType": null,
+           "parentEntities": null,
+           "prefixMetricPath": null,
+           "specificEntities": [],
+           "templateEntities": [],
+           "tierEntities": null,
+           "type": "template-entity-filter",
+           "version": 1
+          },
+          "healthCategory": null,
+          "measurementCategory": "OVERALL_APP_PERF",
+          "metric": {
+           "relative": true,
+           "name": "Availability (ppm)",
+           "functionType": "VALUE"
+          },
+          "templateScopingEntity": "EUM Application",
+          "scopingEntity": null,
+          "source": "BROWSER_APPLICATION",
+          "customQueryType": null,
+          "healthRuleAppType": null,
+          "timeRangeSpecifier": null,
+          "timeShift": null,
+          "metricDataFilter": {
+           "maxResults": 20,
+           "sortResultsAscending": false
+          },
+          "rollupMetricData": false,
+          "guid": "7ba3b769-8c2e-44c4-8eea-61fe9bc1fd3f",
+          "analytics": false,
+          "type": "template-widget-data-query",
+          "version": 3
+         },
+         "type": "template-series-definition",
+         "version": 1
+        }
+       ],
+       "chartProperties": {
+        "chartTitle": "",
+        "stacking": "undefined",
+        "seriesColorOptions": "default",
+        "seriesColors": [
+         {
+          "color": "#5a4daa",
+          "type": "cartesian-series-colors-properties2",
+          "version": 1
+         },
+         {
+          "color": "#53abff",
+          "type": "cartesian-series-colors-properties2",
+          "version": 1
+         },
+         {
+          "color": "#71dec0",
+          "type": "cartesian-series-colors-properties2",
+          "version": 1
+         },
+         {
+          "color": "#ffbf54",
+          "type": "cartesian-series-colors-properties2",
+          "version": 1
+         },
+         {
+          "color": "#f7729a",
+          "type": "cartesian-series-colors-properties2",
+          "version": 1
+         },
+         {
+          "color": "#907eff",
+          "type": "cartesian-series-colors-properties2",
+          "version": 1
+         },
+         {
+          "color": "#f8a0ff",
+          "type": "cartesian-series-colors-properties2",
+          "version": 1
+         },
+         {
+          "color": "#00b582",
+          "type": "cartesian-series-colors-properties2",
+          "version": 1
+         }
+        ],
+        "xAxis": [
+         {
+          "axisTitle": "",
+          "unit": "",
+          "type": "cartesian-axis-properties2",
+          "version": 1
+         }
+        ],
+        "yAxis": [
+         {
+          "axisTitle": "",
+          "unit": "",
+          "type": "cartesian-axis-properties2",
+          "version": 1
+         }
+        ],
+        "thresholds": [],
+        "legend": {
+         "align": "bottom",
+         "visible": true,
+         "type": "cartesian-legend-properties2",
+         "version": 1
+        },
+        "compareTimeRange": {
+         "granularityInMinutes": 1,
+         "retainGranularity": false,
+         "compareType": "none",
+         "timeShiftNumber": 1,
+         "timeShiftUnit": 3600000,
+         "absoluteRangeDateTime": 0,
+         "absoluteRangeStartPoint": "start",
+         "timeRange": "",
+         "type": "cartesian-compare-time-range-properties2",
+         "version": 1
+        },
+        "type": "cartesian-chart-properties2",
+        "version": 1
+       },
+       "title": "Availability (ppm) ",
+       "titleStyle": {
+        "text-align": "center"
+       },
+       "subTitle": "Enter Widget Subtitle",
+       "showTitle": true,
+       "showSubtitle": false,
+       "eventBusChannels": [],
+       "navigationProperties": {
+        "navigationType": "METRIC_BROWSER",
+        "navigationTarget": "CURRENT_PAGE",
+        "url": "",
+        "dashboardId": -1,
+        "passedVariables": [],
+        "type": "navigation-properties",
+        "version": 1
+       },
+       "eventListeners": [],
+       "guid": "1b9e8582-af60-4dd3-9e12-bcf2332e0167",
+       "layoutStyle": {
+        "grid-row": "2 / 3",
+        "grid-column": "2 / 4",
+        "-ms-grid-row-span": "1",
+        "-ms-grid-column-span": "2",
+        "-ms-grid-row": "2",
+        "-ms-grid-column": "2",
+        "width": "100%",
+        "height": "100%",
+        "display": "inline-block",
+        "position": "absolute",
+        "topRowGuid": "014b1e29-25db-4abc-8117-c34161c2b058",
+        "bottomRowGuid": "e940bed5-406e-4aca-9a7b-00aed6353a1d",
+        "leftColumnGuid": "5be96317-60bf-488a-885b-da04d8d93cdf",
+        "rightColumnGuid": "19bb790e-d4dc-43c5-9db8-73307c75ab3d"
+       },
+       "type": "cartesian-widget2",
+       "version": 2
+      },
+      {
+       "visualizationType": "RatioBarAndList",
+       "filledCircle": true,
+       "healthBarSize": "medium",
+       "healthListFont": "Medium",
+       "sortByColumn": "Health",
+       "showDataLabels": {
+        "type": 2,
+        "valueOnly": true,
+        "longLabelMode": false,
+        "numberStyle": "decimal_short"
+       },
+       "healthSeries": {
+        "properties": {
+         "name": "Health Series",
+         "type": "health-series-properties2",
+         "version": 1
+        },
+        "query": {
+         "baselineId": -1,
+         "entityFilter": {
+          "databaseType": null,
+          "filterType": "ALL",
+          "applicationDiagnosticDataType": null,
+          "nameMatchFilter": null,
+          "nodeType": null,
+          "parentEntities": null,
+          "prefixMetricPath": null,
+          "specificEntities": [],
+          "templateEntities": [],
+          "tierEntities": null,
+          "type": "template-entity-filter",
+          "version": 1
+         },
+         "healthCategory": "HEALTH_RULE",
+         "measurementCategory": null,
+         "metric": {
+          "relative": true,
+          "functionType": "VALUE"
+         },
+         "templateScopingEntity": "EUM Application",
+         "scopingEntity": null,
+         "source": "HEALTH_RULE",
+         "customQueryType": null,
+         "healthRuleAppType": "BROWSER_APPLICATION",
+         "timeRangeSpecifier": null,
+         "timeShift": null,
+         "metricDataFilter": {
+          "maxResults": 20,
+          "sortResultsAscending": false
+         },
+         "rollupMetricData": false,
+         "guid": "b0ec7d65-376b-4361-a400-d25f91e650b3",
+         "analytics": false,
+         "type": "template-widget-data-query",
+         "version": 3
+        },
+        "type": "template-series-definition",
+        "version": 1
+       },
+       "centerValueOptions": {
+        "units": "",
+        "numberStyle": "decimal_short"
+       },
+       "title": "Health Rules",
+       "titleStyle": {
+        "text-align": "center"
+       },
+       "subTitle": "Enter Widget Subtitle",
+       "showTitle": true,
+       "showSubtitle": false,
+       "eventBusChannels": [],
+       "navigationProperties": {
+        "navigationType": "URL",
+        "navigationTarget": "NEW_WINDOW",
+        "url": "",
+        "dashboardId": -1,
+        "passedVariables": [],
+        "type": "navigation-properties",
+        "version": 1
+       },
+       "eventListeners": [],
+       "guid": "d81c8d04-8169-45cd-875b-b6aa31a59dd0",
+       "layoutStyle": {
+        "grid-row": "3 / 4",
+        "grid-column": "1 / 3",
+        "-ms-grid-row-span": "1",
+        "-ms-grid-column-span": "2",
+        "-ms-grid-row": "3",
+        "-ms-grid-column": "1",
+        "width": "100%",
+        "height": "100%",
+        "display": "inline-block",
+        "position": "absolute",
+        "topRowGuid": "e940bed5-406e-4aca-9a7b-00aed6353a1d",
+        "bottomRowGuid": "4fa4847e-3a9a-4942-a01a-1d2b62d79aa2",
+        "leftColumnGuid": "3354651c-923d-457f-b816-aa873efd6738",
+        "rightColumnGuid": "27b7aa96-b6a7-4f39-ab35-9b793edda555"
+       },
+       "type": "health-widget2",
+       "version": 3
+      },
+      {
+       "showDataLabels": {
+        "type": 2,
+        "valueOnly": true,
+        "longLabelMode": true,
+        "numberStyle": "decimal_short"
+       },
+       "legend": {
+        "align": "right",
+        "visible": true
+       },
+       "showCenterValue": true,
+       "centerValueOptions": {
+        "units": "",
+        "numberStyle": "decimal_short"
+       },
+       "pieSeries": [
+        {
+         "properties": {
+          "name": "Ok Sessions",
+          "showMetricFunctionTypeOptions": false,
+          "showLimitToOptions": false,
+          "useRelativeMetricPath": false,
+          "type": "pie-series-properties2",
+          "version": 1
+         },
+         "query": {
+          "baselineId": -1,
+          "entityFilter": {
+           "databaseType": null,
+           "filterType": "ALL",
+           "applicationDiagnosticDataType": "SYNTH_JOB_REF",
+           "nameMatchFilter": null,
+           "nodeType": null,
+           "parentEntities": null,
+           "prefixMetricPath": null,
+           "specificEntities": [],
+           "templateEntities": [],
+           "tierEntities": null,
+           "type": "template-entity-filter",
+           "version": 1
+          },
+          "healthCategory": null,
+          "measurementCategory": "OVERALL_APP_PERF",
+          "metric": {
+           "relative": true,
+           "name": "Ok Sessions",
+           "functionType": "VALUE"
+          },
+          "templateScopingEntity": "EUM Application",
+          "scopingEntity": null,
+          "source": "BROWSER_APPLICATION",
+          "customQueryType": null,
+          "healthRuleAppType": null,
+          "timeRangeSpecifier": null,
+          "timeShift": null,
+          "metricDataFilter": {
+           "maxResults": 20,
+           "sortResultsAscending": false
+          },
+          "rollupMetricData": true,
+          "guid": "d9861655-59c4-4594-a140-2d6c87adecf3",
+          "analytics": false,
+          "type": "template-widget-data-query",
+          "version": 3
+         },
+         "type": "template-series-definition",
+         "version": 1
+        },
+        {
+         "properties": {
+          "name": "Failed Sessions",
+          "showMetricFunctionTypeOptions": false,
+          "showLimitToOptions": false,
+          "useRelativeMetricPath": false,
+          "type": "pie-series-properties2",
+          "version": 1
+         },
+         "query": {
+          "baselineId": -1,
+          "entityFilter": {
+           "databaseType": null,
+           "filterType": "ALL",
+           "applicationDiagnosticDataType": "SYNTH_JOB_REF",
+           "nameMatchFilter": null,
+           "nodeType": null,
+           "parentEntities": null,
+           "prefixMetricPath": null,
+           "specificEntities": [],
+           "templateEntities": [],
+           "tierEntities": null,
+           "type": "template-entity-filter",
+           "version": 1
+          },
+          "healthCategory": null,
+          "measurementCategory": "OVERALL_APP_PERF",
+          "metric": {
+           "relative": true,
+           "name": "Failed Sessions",
+           "functionType": "VALUE"
+          },
+          "templateScopingEntity": "EUM Application",
+          "scopingEntity": null,
+          "source": "BROWSER_APPLICATION",
+          "customQueryType": null,
+          "healthRuleAppType": null,
+          "timeRangeSpecifier": null,
+          "timeShift": null,
+          "metricDataFilter": {
+           "maxResults": 20,
+           "sortResultsAscending": false
+          },
+          "rollupMetricData": true,
+          "guid": "108be456-1b19-4722-9a90-f8b46f5865d5",
+          "analytics": false,
+          "type": "template-widget-data-query",
+          "version": 3
+         },
+         "type": "template-series-definition",
+         "version": 1
+        },
+        {
+         "properties": {
+          "name": "Warning Sessions",
+          "showMetricFunctionTypeOptions": false,
+          "showLimitToOptions": false,
+          "useRelativeMetricPath": false,
+          "type": "pie-series-properties2",
+          "version": 1
+         },
+         "query": {
+          "baselineId": -1,
+          "entityFilter": {
+           "databaseType": null,
+           "filterType": "ALL",
+           "applicationDiagnosticDataType": "SYNTH_JOB_REF",
+           "nameMatchFilter": null,
+           "nodeType": null,
+           "parentEntities": null,
+           "prefixMetricPath": null,
+           "specificEntities": [],
+           "templateEntities": [],
+           "tierEntities": null,
+           "type": "template-entity-filter",
+           "version": 1
+          },
+          "healthCategory": null,
+          "measurementCategory": "OVERALL_APP_PERF",
+          "metric": {
+           "relative": true,
+           "name": "Warning Sessions",
+           "functionType": "VALUE"
+          },
+          "templateScopingEntity": "EUM Application",
+          "scopingEntity": null,
+          "source": "BROWSER_APPLICATION",
+          "customQueryType": null,
+          "healthRuleAppType": null,
+          "timeRangeSpecifier": null,
+          "timeShift": null,
+          "metricDataFilter": {
+           "maxResults": 20,
+           "sortResultsAscending": false
+          },
+          "rollupMetricData": true,
+          "guid": "d1ff10bf-56b1-45a5-83a1-84411cf979e2",
+          "analytics": false,
+          "type": "template-widget-data-query",
+          "version": 3
+         },
+         "type": "template-series-definition",
+         "version": 1
+        },
+        {
+         "properties": {
+          "name": "Broken Sessions",
+          "showMetricFunctionTypeOptions": false,
+          "showLimitToOptions": false,
+          "useRelativeMetricPath": false,
+          "type": "pie-series-properties2",
+          "version": 1
+         },
+         "query": {
+          "baselineId": -1,
+          "entityFilter": {
+           "databaseType": null,
+           "filterType": "ALL",
+           "applicationDiagnosticDataType": "SYNTH_JOB_REF",
+           "nameMatchFilter": null,
+           "nodeType": null,
+           "parentEntities": null,
+           "prefixMetricPath": null,
+           "specificEntities": [],
+           "templateEntities": [],
+           "tierEntities": null,
+           "type": "template-entity-filter",
+           "version": 1
+          },
+          "healthCategory": null,
+          "measurementCategory": "OVERALL_APP_PERF",
+          "metric": {
+           "relative": true,
+           "name": "Broken Sessions",
+           "functionType": "VALUE"
+          },
+          "templateScopingEntity": "EUM Application",
+          "scopingEntity": null,
+          "source": "BROWSER_APPLICATION",
+          "customQueryType": null,
+          "healthRuleAppType": null,
+          "timeRangeSpecifier": null,
+          "timeShift": null,
+          "metricDataFilter": {
+           "maxResults": 20,
+           "sortResultsAscending": false
+          },
+          "rollupMetricData": true,
+          "guid": "7aa15f4e-d7ba-4215-8b0e-c158453e8da3",
+          "analytics": false,
+          "type": "template-widget-data-query",
+          "version": 3
+         },
+         "type": "template-series-definition",
+         "version": 1
+        }
+       ],
+       "title": "Session Results",
+       "titleStyle": {
+        "text-align": "center"
+       },
+       "subTitle": "Enter Widget Subtitle",
+       "showTitle": true,
+       "showSubtitle": false,
+       "eventBusChannels": [],
+       "navigationProperties": {
+        "navigationType": "METRIC_BROWSER",
+        "navigationTarget": "CURRENT_PAGE",
+        "url": "",
+        "dashboardId": -1,
+        "passedVariables": [],
+        "type": "navigation-properties",
+        "version": 1
+       },
+       "eventListeners": [],
+       "guid": "2b6312d6-f2ef-414e-8885-f17fa9c6cd75",
+       "layoutStyle": {
+        "grid-row": "2 / 3",
+        "grid-column": "3 / 5",
+        "-ms-grid-row-span": "1",
+        "-ms-grid-column-span": "2",
+        "-ms-grid-row": "2",
+        "-ms-grid-column": "3",
+        "width": "100%",
+        "height": "100%",
+        "display": "inline-block",
+        "position": "absolute",
+        "topRowGuid": "014b1e29-25db-4abc-8117-c34161c2b058",
+        "bottomRowGuid": "e940bed5-406e-4aca-9a7b-00aed6353a1d",
+        "leftColumnGuid": "27b7aa96-b6a7-4f39-ab35-9b793edda555",
+        "rightColumnGuid": "ac351a9a-f2b7-42f0-ac8a-e88714a11d95"
+       },
+       "type": "pie-widget2",
+       "version": 3
+      },
+      {
+       "series": [
+        {
+         "properties": {
+          "visualizationType": "spline",
+          "name": "Billable Time (sec)",
+          "color": "blue",
+          "yAxisIndex": 0,
+          "visible": true,
+          "showMetricFunctionTypeOptions": false,
+          "showChartTypeOptions": true,
+          "showLimitToOptions": false,
+          "useRelativeMetricPath": false,
+          "type": "cartesian-series-properties2",
+          "version": 1
+         },
+         "query": {
+          "baselineId": 33666,
+          "entityFilter": {
+           "databaseType": null,
+           "filterType": "ALL",
+           "applicationDiagnosticDataType": "SYNTH_JOB_REF",
+           "nameMatchFilter": null,
+           "nodeType": null,
+           "parentEntities": null,
+           "prefixMetricPath": null,
+           "specificEntities": [],
+           "templateEntities": [],
+           "tierEntities": null,
+           "type": "template-entity-filter",
+           "version": 1
+          },
+          "healthCategory": null,
+          "measurementCategory": "OVERALL_APP_PERF",
+          "metric": {
+           "relative": true,
+           "name": "Billable Time (sec)",
+           "functionType": "VALUE"
+          },
+          "templateScopingEntity": "EUM Application",
+          "scopingEntity": null,
+          "source": "BROWSER_APPLICATION",
+          "customQueryType": null,
+          "healthRuleAppType": null,
+          "timeRangeSpecifier": null,
+          "timeShift": null,
+          "metricDataFilter": {
+           "maxResults": 20,
+           "sortResultsAscending": false
+          },
+          "rollupMetricData": false,
+          "guid": "4666034d-e4ed-479a-b64c-6fd57fbcb55c",
+          "analytics": false,
+          "type": "template-widget-data-query",
+          "version": 3
+         },
+         "type": "template-series-definition",
+         "version": 1
+        }
+       ],
+       "chartProperties": {
+        "chartTitle": "",
+        "stacking": "undefined",
+        "seriesColorOptions": "default",
+        "seriesColors": [
+         {
+          "color": "#5a4daa",
+          "type": "cartesian-series-colors-properties2",
+          "version": 1
+         },
+         {
+          "color": "#53abff",
+          "type": "cartesian-series-colors-properties2",
+          "version": 1
+         },
+         {
+          "color": "#71dec0",
+          "type": "cartesian-series-colors-properties2",
+          "version": 1
+         },
+         {
+          "color": "#ffbf54",
+          "type": "cartesian-series-colors-properties2",
+          "version": 1
+         },
+         {
+          "color": "#f7729a",
+          "type": "cartesian-series-colors-properties2",
+          "version": 1
+         },
+         {
+          "color": "#907eff",
+          "type": "cartesian-series-colors-properties2",
+          "version": 1
+         },
+         {
+          "color": "#f8a0ff",
+          "type": "cartesian-series-colors-properties2",
+          "version": 1
+         },
+         {
+          "color": "#00b582",
+          "type": "cartesian-series-colors-properties2",
+          "version": 1
+         }
+        ],
+        "xAxis": [
+         {
+          "axisTitle": "",
+          "unit": "",
+          "type": "cartesian-axis-properties2",
+          "version": 1
+         }
+        ],
+        "yAxis": [
+         {
+          "axisTitle": "",
+          "unit": "",
+          "type": "cartesian-axis-properties2",
+          "version": 1
+         }
+        ],
+        "thresholds": [],
+        "legend": {
+         "align": "bottom",
+         "visible": true,
+         "type": "cartesian-legend-properties2",
+         "version": 1
+        },
+        "compareTimeRange": {
+         "granularityInMinutes": 1,
+         "retainGranularity": false,
+         "compareType": "none",
+         "timeShiftNumber": 1,
+         "timeShiftUnit": 3600000,
+         "absoluteRangeDateTime": 0,
+         "absoluteRangeStartPoint": "start",
+         "timeRange": "",
+         "type": "cartesian-compare-time-range-properties2",
+         "version": 1
+        },
+        "type": "cartesian-chart-properties2",
+        "version": 1
+       },
+       "title": "Billable Time (sec)",
+       "titleStyle": {
+        "text-align": "center"
+       },
+       "subTitle": "Enter Widget Subtitle",
+       "showTitle": true,
+       "showSubtitle": false,
+       "eventBusChannels": [],
+       "navigationProperties": {
+        "navigationType": "METRIC_BROWSER",
+        "navigationTarget": "CURRENT_PAGE",
+        "url": "",
+        "dashboardId": -1,
+        "passedVariables": [],
+        "type": "navigation-properties",
+        "version": 1
+       },
+       "eventListeners": [],
+       "guid": "3803de1b-79e7-447c-a3b9-ce70c9544a07",
+       "layoutStyle": {
+        "grid-row": "3 / 4",
+        "grid-column": "4 / 5",
+        "-ms-grid-row-span": "1",
+        "-ms-grid-column-span": "1",
+        "-ms-grid-row": "3",
+        "-ms-grid-column": "4",
+        "width": "100%",
+        "height": "100%",
+        "display": "inline-block",
+        "position": "absolute",
+        "topRowGuid": "e940bed5-406e-4aca-9a7b-00aed6353a1d",
+        "bottomRowGuid": "4fa4847e-3a9a-4942-a01a-1d2b62d79aa2",
+        "leftColumnGuid": "19bb790e-d4dc-43c5-9db8-73307c75ab3d",
+        "rightColumnGuid": "ac351a9a-f2b7-42f0-ac8a-e88714a11d95"
+       },
+       "type": "cartesian-widget2",
+       "version": 2
+      }
+     ],
+     "variables": [],
+     "declarations": [],
+     "eventListeners": [],
+     "guid": "f7505f7c-7452-4d04-a35d-2c70667b65e1",
+     "layoutStyle": {
+      "padding": 18
+     },
+     "type": "grid-container",
+     "version": 1
+    }
+   ],
+   "variables": [
+    {
+     "name": "EUM Application",
+     "entityScopeName": [
+      {
+       "displayName": "Expert Insight Series/Accelerator",
+       "value": 8682
+      }
+     ],
+     "entityType": "BROWSER_APPLICATION",
+     "entityIds": [
+      "Expert Insight Series/Accelerator"
+     ],
+     "selectedTable": [],
+     "selectedTableField": [],
+     "selectedFieldValues": [],
+     "testIds": [],
+     "guid": "ae7fe79c-c45a-4732-947c-26ae9173f724",
+     "type": "template-variable",
+     "version": 1
+    }
+   ],
+   "declarations": [],
+   "eventListeners": [],
+   "guid": "ea147437-e7de-45a1-8253-a10dc77b0fb3",
+   "style": {
+    "background-color": "rgba(75,77,82,1)",
+    "padding": "18px"
+   },
+   "type": "dashboard-container",
+   "version": 2
+  }
+ },
+ "name": "Browser Synthetic Monitoring Dashboard (Expert Insight Series)",
+ "schemaVersion": 1
+}

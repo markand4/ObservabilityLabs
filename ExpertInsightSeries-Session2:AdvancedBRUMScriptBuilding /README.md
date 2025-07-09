@@ -48,7 +48,7 @@ By the end of this lab, you will:
 
    ```bash
    git clone https://github.com/markand4/ObservabilityLabs.git
-   cd ObservabilityLabsYoutube/ObservabilityLabs//Users/markkurpiel/Documents/MyProjects/ExpertInsightSeries-Session2:AdvancedBRUMScriptBuilding 
+   cd ObservabilityLabsYoutube/ObservabilityLabs/ExpertInsightSeries-Session2:AdvancedBRUMScriptBuilding
    ```
 
 2. Set Up Your Environment
@@ -71,7 +71,7 @@ By the end of this lab, you will:
 
 3. Review and Run the Script
 
-   Open [`EIS2-BrowserScript.py`](ObservabilityLabs/ExpertInsightSeries-Session1BuildYourFirstSyntheticScripts%20copy/EIS2-BrowserScript.py) in your IDE.
+   Open [`EIS2-BrowserScript.py`](EIS2-BrowserScript.py) in your IDE.
 
    - The script demonstrates:
      - Attempting login with a locked-out user and verifying the error message.
@@ -99,6 +99,16 @@ By the end of this lab, you will:
      - Verify if the script runs successfully.
      - Check for any failed steps or errors in the synthetic job logs.
      - Debug and optimize the script as needed.
+
+6. Import the Dashboard JSON into AppDynamics Dashboard Studio
+
+   - Log in to your AppDynamics Controller.
+   - In the left navigation, go to **Dashboards & Reports**.
+   - Click on Dash Studio 
+   - Click **Import** and select Browser Synthetic Monitoring Dashboard (Expert Insight Series).json
+   - Save the dashboard.
+
+   The dashboard provides visual insights into your synthetic monitor's performance and results.
 
 📢 Need Help?
 
